@@ -1,0 +1,22 @@
+.{
+    display: flex;
+    font-family;: 'Roboto', sans-serif;
+}
+.partone{
+    background-color: #1F2937;
+}
+.header{
+    display: flex;
+    align-items: center;
+    
+}
+.headerlogo{
+    padding-left: 100px;
+    margin-right: 200px;
+    color: white;
+}
+.links{
+    display:flex;
+    gap: 30px;
+    padding: 0;
+}
