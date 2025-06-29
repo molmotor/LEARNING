@@ -31,7 +31,6 @@ body {
 .links {
   display: flex;
   gap: 2rem; /* relative spacing between links */
-  list-style: none;
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
@@ -59,13 +58,13 @@ body {
 }
 
 .awesome h2 {
-    font: 48px;
+    font-size: 3rem;
     font-weight: 900;
     color: #f9faf8;
 }
 
 .awesome p {
-    font: 18px;
+    font-size: 1.125rem;
     color: #E5E7EB;
 }
 
