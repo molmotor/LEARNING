@@ -1,0 +1,17 @@
+body {
+    font-family: Roboto;
+}
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
