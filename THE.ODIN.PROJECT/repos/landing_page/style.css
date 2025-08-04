@@ -1,17 +1,23 @@
 body {
     font-family: Roboto;
 }
-
-.container {
+.part1{
     background-color: #1F2937;
+}
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 100px;
+    padding: 5px 180px;
 }
 
 nav {
     display: flex;
-    gap: 20px;
-    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+nav a {
+    display: flex;
+    
 }
