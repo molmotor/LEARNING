@@ -1,5 +1,6 @@
 body {
     font-family: Roboto;
+    
 }
 .part1{
     background-color: #1F2937;
@@ -9,6 +10,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px 180px;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #F9F1F8;
 }
 
 nav {
@@ -22,4 +28,39 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+.awesomewithout {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+}
+
+.awesomewith {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 240px;
+}
+
+.awesomewith h1 {
+    font-size: 48px;
+    color: #F9F1F8;
+    font-weight  : 900;
+    padding-right: 80px;
+}
+
+.awesomewith p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
 }
